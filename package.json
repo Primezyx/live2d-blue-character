@@ -2,7 +2,7 @@
   "name": "live2d-blue-character",
   "version": "0.8.0",
   "private": true,
-  "description": "Live2D character with coordinated limb choreography.",
+  "description": "Odetta Live2D character project with coordinated limb choreography.",
   "scripts": {
     "dance:build": "node tools/build_dance_v08.cjs",
     "test:preview": "node tools/check_dance_v08.cjs",

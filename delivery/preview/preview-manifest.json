@@ -27,7 +27,7 @@
       }
     },
     "MODEL_URL": "./model-v08/BlueCharacter.model3.json",
-    "MODEL_LABEL": "蓝发角色 · 肢体舞蹈",
+    "MODEL_LABEL": "奥黛塔 · 肢体舞蹈",
     "REFERENCE_URL": null,
     "DOWNLOAD_URL": "./downloads/model-v08.zip",
     "INPUT_MAPPING": {
@@ -55,14 +55,14 @@
     "app.js": "38a808026690ea6919fab6a70ecd30556ef44af8d4feb9fac3caea27b99ea2c2",
     "camera-tracker.js": "40ee92740d273196c388e19a867d2c026c6dc4cb3709b680c7729645c720498f",
     "capture-controller.js": "2de7e63cb95b42bc61ca6198f115988b694c691a11bf8dec1a5a02e9775093de",
-    "index.html": "43481140825373636c01df8b0a2f9b29493f0afc20c5771cc7a040bd2d5f8ef8",
-    "README.md": "cd33ea5a31781c12b8d443e14ac8ff13665cff41918111d5fc131dde944c8430",
+    "index.html": "61eac757864ddf4fb1373986848447a18cb33d6e0fbede79ec474505e6c5de08",
+    "README.md": "c7f0049c45a5f9408c33028fe9fabdc4119ed552bac33c0c39fce835b1c4c920",
     "runtime.js": "63e2522511169c5d746dd04cd3f681d9047b4b7a9661f8ef725a99f689c6c50a",
     "server.py": "9efb35c8a42e06aa43355cbe3de2018cd26f0e21eeebf9ca892da2fe4d537ae1",
     "styles.css": "68314e2d894300d4828a648002e1592ec43c457a9ae42763140fd7ec4716dfb2",
     "tracking-input.js": "31320e1f75d87ccc80af23a9ace83be4183599ed1c5898b8532e05e56f94dcf7",
     "tracking-math.js": "7c817822ea59a5d9e8065a88bf81fca222df14500fd953aef3f60cedafe4d647",
-    "view-config.js": "f554f2948c6830f47d0e2cb944a9c09a64e0ad6a7abf76233899594d44505305",
+    "view-config.js": "156219958746328ed0944877caea6bc678b3acefae49f06b28801535f2850553",
     "vendor/CUBISM-CORE-LICENSE.md": "b81e37048010ef1d336106151201a0323c3309cae44aecdedf57831fe88fa991",
     "vendor/CUBISM-FRAMEWORK-LICENSE.md": "7ed849bff1e6499aa7cd882e47d246ddbbe06817c1e84cb974df949488302614",
     "vendor/LICENSE.md": "b81e37048010ef1d336106151201a0323c3309cae44aecdedf57831fe88fa991",
@@ -97,5 +97,10 @@
   },
   "localOnlyFiles": [
     "vendor/live2dcubismcore.min.js"
-  ]
+  ],
+  "character": {
+    "name": "奥黛塔",
+    "work": "原神",
+    "source": "User-provided character identification"
+  }
 }
