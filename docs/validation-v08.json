@@ -1,0 +1,36 @@
+{
+  "revision": "v08",
+  "scope": "Final v08 native/web checks. No camera, VTube Studio or official Editor acceptance claimed.",
+  "nativeCore": {
+    "version": "6.0.1",
+    "poses": 86,
+    "parameters": 24,
+    "drawables": 14,
+    "vertices": 4025,
+    "mocSha256": "aa6cdf20b446a46a732db1a23fc7f834858c163061e5d338fc776998a11b7486"
+  },
+  "webCore": "5.1.0",
+  "checks": [
+    "Real Cubism model loaded and dance autoplay started",
+    "All 1,441 sampled poses are finite and within actual Core parameter ranges; endpoints match",
+    "All eight joints independently move exactly the intended real limb mesh",
+    "Left/right leg lifts alternate and opposite arms lead the step",
+    "579 real Core poses across three strengths contain no reversed limb triangles",
+    "Real mesh vertices move across choreography poses",
+    "Pause freezes Core geometry, parameters and root travel",
+    "Optional beat starts from a click; stop silences it and restores position",
+    "One-shot dance completes and returns to neutral",
+    "Loop restarts the timeline without pausing",
+    "Existing demo and reset controls still work",
+    "Mobile layout has no horizontal overflow",
+    "Exported native motion loaded and animates through real Cubism motion manager"
+  ],
+  "topology": {
+    "samples": 579,
+    "flipped": 0,
+    "byMesh": {},
+    "examples": []
+  },
+  "runtimeIdentityVerified": true,
+  "runtimeZipSha256": "d1d8b52a81f762330b796e6e77e830e3240d6ba91cfff7707b7794431ecc7bd9"
+}

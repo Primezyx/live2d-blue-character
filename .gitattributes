@@ -1,0 +1,19 @@
+* text=auto
+*.js text eol=lf
+*.cjs text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.kt text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.psd binary
+*.cmo3 binary
+*.moc3 binary
+*.zip binary
+
+# Preserve exact validated runtime and locked toolchain bytes.
+/delivery/preview/** -text
+/source/toolchain/** -text

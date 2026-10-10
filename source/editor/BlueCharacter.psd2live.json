@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "model": "BlueCharacter",
+  "generator": "PSD2Live 0.6.0",
+  "runtimeTarget": "Cubism50",
+  "mocVersion": 5,
+  "canvas": {"width":560,"height":1480},
+  "config": {"atlasSize":2048,"meshSpacing":12,"headTurnStrength":0.12,"headRollStrength":0.08,"hairFollowStrength":0.15,"independentHairPhysics":true,"cuteMouthForm":true,"bodyStrength":0.1,"meshOnly":false,"generateDeformers":true,"exportMotions":true},
+  "textures": {"packingPages":[{"width":2048,"height":2048}],"pages":[{"width":2048,"height":2048}],"sourceSha256":[]},
+  "faceRig": {"algorithm":"perspective-parallelogram-nine-pose-v2","angleX":[-45,0,45],"angleY":[-30,0,30],"initialAngleZ":0.0,"centerX":277.565,"centerY":281.77,"radiusX":62.434998,"radiusY":60.76999},
+  "deformerHierarchy": {"head":"DeformHeadContainer","face":"DeformFaceNinePose","frontHair":["DeformHairFrontFollow"],"backHair":[]},
+  "physics": {"enabled":true,"frontHair":false,"backHair":false,"eyeJelly":false,"preset":"hair-and-eye-pendulum"},
+  "summary": {"layers":14,"drawables":14,"deformers":15,"parameters":24,"atlasPages":1},
+  "layers": [
+    {"source":"handwear-r","type":"preset","tag":"handwear","side":"RIGHT","parameter":"","switchId":0,"drawable":"ArtMeshHandwearR"},
+  {"source":"handwear-l","type":"preset","tag":"handwear","side":"LEFT","parameter":"","switchId":0,"drawable":"ArtMeshHandwearL"},
+  {"source":"legwear-r","type":"preset","tag":"legwear","side":"RIGHT","parameter":"","switchId":0,"drawable":"ArtMeshLegwearR"},
+  {"source":"legwear-l","type":"preset","tag":"legwear","side":"LEFT","parameter":"","switchId":0,"drawable":"ArtMeshLegwearL"},
+  {"source":"topwear","type":"preset","tag":"topwear","side":"NONE","parameter":"","switchId":0,"drawable":"ArtMeshTopwear"},
+  {"source":"face","type":"preset","tag":"face","side":"NONE","parameter":"","switchId":0,"drawable":"ArtMeshFace"},
+  {"source":"eyewhite-r","type":"preset","tag":"eyewhite","side":"RIGHT","parameter":"","switchId":0,"drawable":"ArtMeshEyewhiteR"},
+  {"source":"eyewhite-l","type":"preset","tag":"eyewhite","side":"LEFT","parameter":"","switchId":0,"drawable":"ArtMeshEyewhiteL"},
+  {"source":"eye_close-r","type":"preset","tag":"eye_close","side":"RIGHT","parameter":"","switchId":0,"drawable":"ArtMeshEyeCloseR"},
+  {"source":"eye_close-l","type":"preset","tag":"eye_close","side":"LEFT","parameter":"","switchId":0,"drawable":"ArtMeshEyeCloseL"},
+  {"source":"mouth_open","type":"preset","tag":"mouth_open","side":"NONE","parameter":"","switchId":0,"drawable":"ArtMeshMouthOpen"},
+  {"source":"mouth_close","type":"preset","tag":"mouth_close","side":"NONE","parameter":"","switchId":0,"drawable":"ArtMeshMouthClose"},
+  {"source":"front hair-side-r","type":"preset","tag":"front hair","side":"RIGHT","parameter":"","switchId":0,"drawable":"ArtMeshFrontHairR"},
+  {"source":"front hair-side-l","type":"preset","tag":"front hair","side":"LEFT","parameter":"","switchId":0,"drawable":"ArtMeshFrontHairL"}
+  ],
+  "warnings": ["检测到同名图层：handwear, legwear, eyewhite, eye_close, front hair-side；已通过稳定图层 ID 区分。","CMO3：未保留原始 PSD 源图编辑链；已从 1 页贴图重建可编辑图层（模型/Rig 数据仍保留）"]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "modelEntry": "model-v08/BlueCharacter.model3.json",
+  "config": {
+    "DRAWING": {
+      "width": 560,
+      "height": 1480
+    },
+    "REGIONS": {
+      "full": {
+        "x": 0,
+        "y": 0,
+        "w": 560,
+        "h": 1480
+      },
+      "portrait": {
+        "x": 95,
+        "y": 10,
+        "w": 370,
+        "h": 720
+      },
+      "face": {
+        "x": 157,
+        "y": 115,
+        "w": 250,
+        "h": 305
+      }
+    },
+    "MODEL_URL": "./model-v08/BlueCharacter.model3.json",
+    "MODEL_LABEL": "蓝发角色 · 肢体舞蹈",
+    "REFERENCE_URL": null,
+    "DOWNLOAD_URL": "./downloads/model-v08.zip",
+    "INPUT_MAPPING": {
+      "EyeLeftX": false,
+      "EyeLeftY": false,
+      "EyeRightX": false,
+      "EyeRightY": false
+    },
+    "CAPTURE_HOLD_DEFAULTS": [],
+    "CAMERA_ASSETS": null
+  },
+  "dependencies": {
+    "core": "user-provided; verify Cubism redistribution terms",
+    "pixi": "6.5.10",
+    "pixi-live2d-display": "0.4.0"
+  },
+  "copiedNotices": [
+    "CUBISM-CORE-LICENSE.md",
+    "CUBISM-FRAMEWORK-LICENSE.md",
+    "LICENSE.md",
+    "PIXI-LICENSE.txt",
+    "PIXI-LIVE2D-LICENSE.txt"
+  ],
+  "files": {
+    "app.js": "38a808026690ea6919fab6a70ecd30556ef44af8d4feb9fac3caea27b99ea2c2",
+    "camera-tracker.js": "40ee92740d273196c388e19a867d2c026c6dc4cb3709b680c7729645c720498f",
+    "capture-controller.js": "2de7e63cb95b42bc61ca6198f115988b694c691a11bf8dec1a5a02e9775093de",
+    "index.html": "43481140825373636c01df8b0a2f9b29493f0afc20c5771cc7a040bd2d5f8ef8",
+    "README.md": "cd33ea5a31781c12b8d443e14ac8ff13665cff41918111d5fc131dde944c8430",
+    "runtime.js": "63e2522511169c5d746dd04cd3f681d9047b4b7a9661f8ef725a99f689c6c50a",
+    "server.py": "9efb35c8a42e06aa43355cbe3de2018cd26f0e21eeebf9ca892da2fe4d537ae1",
+    "styles.css": "68314e2d894300d4828a648002e1592ec43c457a9ae42763140fd7ec4716dfb2",
+    "tracking-input.js": "31320e1f75d87ccc80af23a9ace83be4183599ed1c5898b8532e05e56f94dcf7",
+    "tracking-math.js": "7c817822ea59a5d9e8065a88bf81fca222df14500fd953aef3f60cedafe4d647",
+    "view-config.js": "f554f2948c6830f47d0e2cb944a9c09a64e0ad6a7abf76233899594d44505305",
+    "vendor/CUBISM-CORE-LICENSE.md": "b81e37048010ef1d336106151201a0323c3309cae44aecdedf57831fe88fa991",
+    "vendor/CUBISM-FRAMEWORK-LICENSE.md": "7ed849bff1e6499aa7cd882e47d246ddbbe06817c1e84cb974df949488302614",
+    "vendor/LICENSE.md": "b81e37048010ef1d336106151201a0323c3309cae44aecdedf57831fe88fa991",
+    "vendor/live2dcubismcore.min.js": "25ae938cb4fe282ce189b357bcc97e603d1e1f7ec78bf04150d401c23cdc792f",
+    "vendor/pixi-6.5.10.min.js": "403f2f2ee8145fa17f60c5c89403056efe2680e5096ec2762036486914ed19c5",
+    "vendor/PIXI-LICENSE.txt": "536a16e090f0b6c1454a7c0b47ee8414a39a2f1724a154f10ca1edc750a2dcfd",
+    "vendor/pixi-live2d-display-0.4.0.min.js": "af1267e6d52759b245766c578d905bfa025b532d5c3cc727c370957c4409e21b",
+    "vendor/PIXI-LIVE2D-LICENSE.txt": "8ccace668a041e78ed525d091b0b5daf8b623ff447f912616de535415e4f302f",
+    "dance.js": "d851377332264d8e11721eda584e8cf9fc7dd9cf6e53692bae2265b5c15a82cc",
+    "model-v08/BlueCharacter.blink.motion3.json": "399f91b7bfac0666f589ab7c6daace5e33e5c6d6e7c6e7ca4024b6db48a65110",
+    "model-v08/BlueCharacter.cdi3.json": "2d67e8f30f2f4977935ab5c7d05fcab6529b7c03295dfb850122112033d6bba8",
+    "model-v08/BlueCharacter.dance.motion3.json": "cdac887339eb5f398402b6991075a6d1f3bea206862c6ad39c8b093839cc2cba",
+    "model-v08/BlueCharacter.idle.motion3.json": "5f709b9834310a670e1b55b448421568377031f26ad79040925db29da8943990",
+    "model-v08/BlueCharacter.moc3": "aa6cdf20b446a46a732db1a23fc7f834858c163061e5d338fc776998a11b7486",
+    "model-v08/BlueCharacter.model3.json": "d6916207e94ace5865a724bd14aba21d48222099c8b15ef3c678ecc422ab895f",
+    "model-v08/BlueCharacter.nod.motion3.json": "bfd9a247d5ec8479145c2dddfd5fdbf03e1c46df8d7460f07badd146c1e19418",
+    "model-v08/BlueCharacter.physics3.json": "931d7804392daa611aa242076ffd231b74e550e3c1ad2f3d98e94e26a4168bed",
+    "model-v08/BlueCharacter.shake.motion3.json": "9714b72b47dba8e33b6b08d0f9e84c77309a6ce6c98d2a3815c3a59d69163b01",
+    "model-v08/release-metadata.json": "924d2d5ed898178f6f7d53bf43585cf7bf63dd9527ac87cffa518a13fd0350a7",
+    "model-v08/BlueCharacter.8192/texture_00.png": "94efc450c42fd9d4233a763195818cd2f3d5ed3ef485e35a932927545cd5553a",
+    "downloads/model-v08.zip": "d1d8b52a81f762330b796e6e77e830e3240d6ba91cfff7707b7794431ecc7bd9",
+    "downloads/BlueCharacter-limbs-dance.motion3.json": "cdac887339eb5f398402b6991075a6d1f3bea206862c6ad39c8b093839cc2cba"
+  },
+  "dance": {
+    "name": "手脚协调舞",
+    "duration": 24,
+    "bpm": 120,
+    "motion": "downloads/BlueCharacter-limbs-dance.motion3.json",
+    "nativeParameterCurves": 20,
+    "jointParameters": 8,
+    "checked": "validation/coordinated-dance-v08/report.json"
+  },
+  "localOnlyFiles": [
+    "vendor/live2dcubismcore.min.js"
+  ]
+}

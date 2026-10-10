@@ -1,0 +1,18 @@
+{
+  "name": "live2d-blue-character",
+  "version": "0.8.0",
+  "private": true,
+  "description": "Live2D character with coordinated limb choreography.",
+  "scripts": {
+    "dance:build": "node tools/build_dance_v08.cjs",
+    "test:preview": "node tools/check_dance_v08.cjs",
+    "test:smoke": "node tools/smoke_public_v08.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}

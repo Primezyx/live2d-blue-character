@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-09T05:16:42.374041+00:00",
+  "entry": "BlueCharacter.model3.json",
+  "nativeCoreValidated": true,
+  "coreEvidence": {
+    "validator": "local-official-cubism-core",
+    "sha256": "aa6cdf20b446a46a732db1a23fc7f834858c163061e5d338fc776998a11b7486",
+    "passed": true,
+    "coreVersion": 100663297,
+    "checkedAt": "2026-10-09T05:16:16.968719+00:00",
+    "source": "Supplied report matched; Core was not rerun by this command."
+  },
+  "mocSha256": "aa6cdf20b446a46a732db1a23fc7f834858c163061e5d338fc776998a11b7486",
+  "files": {
+    "BlueCharacter.8192/texture_00.png": {
+      "sha256": "94efc450c42fd9d4233a763195818cd2f3d5ed3ef485e35a932927545cd5553a",
+      "bytes": 20452338
+    },
+    "BlueCharacter.blink.motion3.json": {
+      "sha256": "399f91b7bfac0666f589ab7c6daace5e33e5c6d6e7c6e7ca4024b6db48a65110",
+      "bytes": 1155
+    },
+    "BlueCharacter.cdi3.json": {
+      "sha256": "2d67e8f30f2f4977935ab5c7d05fcab6529b7c03295dfb850122112033d6bba8",
+      "bytes": 3992
+    },
+    "BlueCharacter.dance.motion3.json": {
+      "sha256": "cdac887339eb5f398402b6991075a6d1f3bea206862c6ad39c8b093839cc2cba",
+      "bytes": 505400
+    },
+    "BlueCharacter.idle.motion3.json": {
+      "sha256": "5f709b9834310a670e1b55b448421568377031f26ad79040925db29da8943990",
+      "bytes": 2282
+    },
+    "BlueCharacter.moc3": {
+      "sha256": "aa6cdf20b446a46a732db1a23fc7f834858c163061e5d338fc776998a11b7486",
+      "bytes": 419776
+    },
+    "BlueCharacter.model3.json": {
+      "sha256": "d6916207e94ace5865a724bd14aba21d48222099c8b15ef3c678ecc422ab895f",
+      "bytes": 1022
+    },
+    "BlueCharacter.nod.motion3.json": {
+      "sha256": "bfd9a247d5ec8479145c2dddfd5fdbf03e1c46df8d7460f07badd146c1e19418",
+      "bytes": 1751
+    },
+    "BlueCharacter.physics3.json": {
+      "sha256": "931d7804392daa611aa242076ffd231b74e550e3c1ad2f3d98e94e26a4168bed",
+      "bytes": 4366
+    },
+    "BlueCharacter.shake.motion3.json": {
+      "sha256": "9714b72b47dba8e33b6b08d0f9e84c77309a6ce6c98d2a3815c3a59d69163b01",
+      "bytes": 1571
+    }
+  },
+  "attribution": {
+    "included": false,
+    "path": null
+  },
+  "assetLicense": {
+    "included": false,
+    "path": null
+  },
+  "vtubeStudioTested": false,
+  "officialEditorTested": false,
+  "cameraAccessed": false,
+  "scope": "Runtime dependencies copied after structural checks and exact supplied official-Core report matching; optional explicitly supplied publication text is byte-verified. No target-application acceptance or license-content validation is inferred."
+}
